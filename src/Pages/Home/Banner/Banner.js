@@ -8,13 +8,12 @@ const Banner = () => {
     return (
         <div className=' flex min-h-[80vh] flex-col-reverse lg:flex-row items-center justify-between' style={{backgroundColor:'#212121'}}>
             <div className='container mx-auto lg:flex lg:flex-row md:flex-row items-center'>
-            <div className='text-white lg:w-1/2 md:mt-10 md:px-16 md:pt-8 lg:mt-10 lg:mx-8 lg:px-4 px-6 pt-8'>
+            <div className='text-white lg:w-1/2 md:mt-10 md:px-16 md:pt-8 lg:mx-8 lg:px-4 px-6 pt-8'>
             <h2 className='text-3xl' style={{color:'gray'}}>Hello, I'm</h2>
             <h1 className='text-5xl'>Poly Akhtar</h1>
             <p className='text-4xl my-4' style={{color:'#FF621A'}}>
                 A{' '}
             <span style={{ color:'#FF621A' }}>
-          {/* Style will be inherited from the parent element */}
           <Typewriter
             words={['Front-End Developer', 'React Developer', 'Mern-Stack Developer']}
             loop={10}
