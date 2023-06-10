@@ -6,11 +6,11 @@ import project3 from '../../../assets/project3.png'
 
 const Project = () => {
     return (
-        <div className='my-20'> 
+        <div className='my-20' style={{paddingLeft:'4%',paddingRight:'4%'}}> 
         <h1 className='my-16 text-5xl font-semibold text-center' style={{color:'#FF621A'}}>Some of my projects</h1>   
        <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 md:px-4 lg:px-2 px-4 lg:grid-cols-3 gap-6'>
         <div className="group relative">
-        <img  class="w-full" style={{height:'500px'}}
+        <img  class="w-full" style={{height:'400px'}}
             src={project1} alt=""/>
         <div
             className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500 border-2 border-orange-600 shadow-lg hover:shadow-orange-600" style={{backgroundColor:'#212121'}}>
@@ -19,7 +19,7 @@ const Project = () => {
         </div>
     </div>
     <div className="group relative ">
-        <img class="w-full " style={{height:'500px'}}
+        <img class="w-full " style={{height:'400px'}}
             src={project2} alt=""/>
         <div
             className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500 border-2 border-orange-600 shadow-lg hover:shadow-orange-600" style={{backgroundColor:'#212121'}}>
@@ -28,7 +28,7 @@ const Project = () => {
         </div>
     </div>
     <div className="group relative">
-        <img class="w-full " style={{height:'500px'}}
+        <img class="w-full " style={{height:'400px'}}
             src={project3} alt=""/>
         <div
             className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500 border-2 border-orange-600 shadow-lg hover:shadow-orange-600" style={{backgroundColor:'#212121'}}>

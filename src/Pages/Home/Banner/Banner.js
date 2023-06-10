@@ -1,12 +1,12 @@
 import Lottie from 'lottie-react';
 import { Link } from 'react-router-dom';
 import bannerAnimation from '../../../assets/banner1.json'
-import{Typewriter} from 'react-simple-typewriter'
+import{Typewriter} from 'react-simple-typewriter';
 
 const Banner = () => {
  
     return (
-        <div className=' flex min-h-[80vh] flex-col-reverse lg:flex-row items-center justify-between' style={{backgroundColor:'#212121'}}>
+        <div className=' flex min-h-[80vh] flex-col-reverse lg:flex-row items-center justify-between' style={{backgroundColor:'#212121',}}>
             <div className='container mx-auto lg:flex lg:flex-row md:flex-row items-center'>
             <div className='text-white lg:w-1/2 md:mt-10 md:px-16 md:pt-8 lg:mx-8 lg:px-4 px-6 pt-8'>
             <h2 className='text-3xl' style={{color:'gray'}}>Hello, I'm</h2>
@@ -43,6 +43,7 @@ const Banner = () => {
         
             </div>
         </div>
+      
     );
 };
 

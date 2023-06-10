@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
       
         <nav className="w-full shadow" style={{backgroundColor:'#313131'}}>
-        <div className="justify-between px-4 mx-auto lg:max-w-screen-2xl md:items-center md:flex md:px-8">
+        <div className="justify-between mx-auto lg:max-w-screen-2xl md:items-center md:flex " style={{paddingLeft:'6%',paddingRight:'6%'}}>
             <div>
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link to="/">
