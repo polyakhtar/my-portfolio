@@ -1,7 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
 import aboutAnimation from '../../assets/about.json';
-
 const About = () => {
     return (
         <div className='my-16 min-h-screen'>
@@ -26,8 +25,6 @@ const About = () => {
             <p className='text-xl'>I am passionate about programming. I am strongly committed to be a solid software engineer and develop efficient software systems. I am interested about building excellent software that improves the lives of those around me.</p>
             <button className='btn btn-outline text-white hover:bg-orange-600 my-4' style={{borderColor:'#FF621A'}}><a href='https://drive.google.com/file/d/1DWfwHfoQ1UJB0WT3DIO2_mXKGxNlkC7L/view?usp=sharing' target='blank'>My Resume</a></button>
             </div>
-            
-        
             </div>
         </div>
             </div>
